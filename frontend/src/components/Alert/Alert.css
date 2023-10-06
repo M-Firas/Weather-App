@@ -12,7 +12,6 @@
     flex-direction: column;
 }
 .alert--container p{
-  margin-top: 40px ;
   color: var(--colorOne);
   text-align: center;
 }

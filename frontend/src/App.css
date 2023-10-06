@@ -1,0 +1,67 @@
+.App{
+ display: flex;
+ flex-direction: column;
+ 
+}
+.search-darkMode-container{
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-around;
+}
+.search--container{
+    width: 90%;
+}
+.weather--info{
+   display: flex;
+   flex-direction: row;
+} 
+.left {
+    width: 70%;
+} 
+
+.right{
+    width: 30%;
+}
+
+
+/*Responsive Code*/
+/* Mobile */
+@media only screen  and  (max-width:600px){
+    .weather--info{
+        display: flex;
+        flex-direction: column;
+     } 
+}
+
+@media only screen  and  (max-width:600px){
+    .left {
+        width: 100%;
+    } 
+}
+
+@media only screen  and  (max-width:600px){
+    .right {
+        width: 100%;
+    } 
+}
+
+/* Tablet */
+@media only screen and (max-width: 1314px) and (min-width:600px){
+    .weather--info{
+        display: flex;
+        flex-direction: column;
+     } 
+}
+
+@media only screen and (max-width: 1314px) and (min-width:600px){
+    .left {
+        width: 100%;
+    } 
+}
+
+@media only screen and (max-width: 1314px) and (min-width:600px){
+    .right {
+        width: 100%;
+    } 
+}

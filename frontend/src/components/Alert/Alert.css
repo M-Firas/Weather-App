@@ -1,0 +1,17 @@
+.alert{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: aliceblue;
+}
+.alert--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.alert--container p{
+  margin-top: 40px ;
+  color: var(--colorOne);
+}

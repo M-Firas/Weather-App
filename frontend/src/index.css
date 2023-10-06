@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+
+body {
+  margin: 0 auto; 
+  padding: 20px;
+  font-family: 'Rubik', sans-serif;
+  background-color: var(--bodyBackground);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+  --sectionPadding:20px;
+  --componentPadding:20px;
+  --colorOne:#394351;
+  --colorTwo:#979797; 
+  --mainBorderRadius:25px; 
+  --bodyBackground:#F5F5F5;
+  --componentBackground:#EAECEF;
+} 
+[data-theme="dark"]{
+  --bodyBackground:#0B131E;
+  --componentBackground:#202B3B; 
+  --colorOne:#FFFFFF;
+} 
+
+*{
+  transition: all 0.3s ease-in-out;
+}

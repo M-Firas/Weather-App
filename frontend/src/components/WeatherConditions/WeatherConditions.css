@@ -1,0 +1,68 @@
+.weatherConditions{
+    padding:  0 var(--sectionPadding) var(--sectionPadding) var(--sectionPadding) var(--sectionPadding);
+}
+.weatherConditions--container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ; 
+    gap: 10px;
+    max-width: 880px;
+    background-color: var(--componentBackground);
+    padding: 15px;
+    border-radius: var(--mainBorderRadius);
+} 
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.item p{
+    margin: 0;
+    font-size: 30px; 
+    font-weight: 800;
+    color: var(--colorOne);
+} 
+.item img{
+    width: 30px;
+    height: 30px; 
+    margin-right: 5px;
+}
+.item h4{
+    color: var(--colorTwo);
+    font-weight: 300;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+/* Responsive */
+
+/* Mobile */
+@media only screen  and  (max-width:600px){
+    .weatherConditions--container{
+        padding: var(--componentPadding);
+    }
+    .item p{
+        font-size: 20px;
+    } 
+    .item h4{
+       font-size: 15px;
+    }
+}
+
+
+/* Tablet */
+@media only screen and (max-width: 992px) and (min-width:600px){
+    .weatherConditions--container{
+        padding: var(--componentPadding);
+    }
+}
+@media only screen and (max-width: 1314px) and (min-width:600px){
+    .weatherConditions--container{
+    max-width: 100%;
+    }
+}
